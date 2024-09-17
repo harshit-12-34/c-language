@@ -1,0 +1,17 @@
+//swapping two numbers without using the third variable 
+#include<stdio.h>
+int main()
+{
+    int x,y;
+    printf("enter the first 'x' number:");
+    scanf("%d",&x);
+    printf("enter the second 'y' number:");
+    scanf("%d",&y);
+    x=x+y;
+    y=x-y;
+    x=x-y;
+    printf("x=%d\n",x);
+    printf("y=%d",y);
+    return 0;
+
+}
